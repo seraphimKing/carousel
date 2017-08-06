@@ -1,0 +1,30 @@
+.slide-box {
+	max-width: 533px;
+}
+.slide-content {
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+.slide-inner {
+	position: relative;
+	width: 1140%;
+}
+.slide {
+	position: absolute;
+	top: 0;
+	width: 533px;
+	height: auto;
+	float: left;
+	/*transition: left 1s;*/
+}
+.slide1 {
+	left: -533px;
+}
+.slide2 {
+	left: 0px;
+}
+.slide3 {
+	left: 533px;
+}
+.clearfix{overflow:hidden;_zoom:1;}
